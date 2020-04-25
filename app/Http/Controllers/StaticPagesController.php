@@ -21,4 +21,9 @@ class StaticPagesController extends Controller
     {
         return view('static_pages/about');
     }
+    //xxz的测试
+    public function xxz()
+    {
+        return view('static_pages/xxz');
+    }
 }

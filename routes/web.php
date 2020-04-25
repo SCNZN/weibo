@@ -14,3 +14,6 @@
 Route::get('/', 'StaticPagesController@home');
 Route::get('/help', 'StaticPagesController@help');
 Route::get('/about', 'StaticPagesController@about');
+
+// xxz的测试
+Route::get('/xxz', 'StaticPagesController@xxz');
